@@ -1,0 +1,75 @@
+.header {
+    background-color: #35495e;
+    text-align: center;
+    height: 50px;
+  }
+.text {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+  } 
+  img{
+    float:left;
+    border-radius: 50px;
+  
+  }
+  .twocontainers {
+    background-color:#d9dad7; 
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .row1 {
+    background-color:#393e46;
+    width: 20%;
+    height: 80%;
+    position: relative;
+    margin-top: 25px;
+    border-radius: 15px;
+  }
+  .row2 {
+    width: 70%;
+    height: 80%;
+    position: relative;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .searchbox {
+    height: 10%;
+    width: 75%;
+    border-radius: 15px;
+    background-color: #393e46;
+  }
+  ::placeholder{
+    letter-spacing: 3px;
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 25px;
+  }
+  .threesmalldivs {
+    height: 35%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+  .smalldiv {
+    width: 20%;
+    height: 70%;
+    background-color:#393e46;
+    border-radius:15px;
+  }
+  .anotherdiv {
+    width: 100%;
+    height: 40%;
+    background-color:#393e46;
+    border-radius: 15px;
+  }
